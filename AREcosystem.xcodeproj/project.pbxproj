@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		825EAD4E2DFA18A500655D31 /* AREcosystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AREcosystem.app; path = "/Users/jotape/Documents/AR-eco/build/Debug-iphoneos/AREcosystem.app"; sourceTree = "<absolute>"; };
-		825EAD5B2DFA18A500655D31 /* AREcosystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AREcosystemTests.xctest; path = "/Users/jotape/Documents/AR-eco/build/Debug-iphoneos/AREcosystem.app/PlugIns/AREcosystemTests.xctest"; sourceTree = "<absolute>"; };
-		825EAD652DFA18A500655D31 /* AREcosystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AREcosystemUITests.xctest; path = "/Users/jotape/Documents/AR-eco/build/Debug-iphoneos/AREcosystemUITests-Runner.app/PlugIns/AREcosystemUITests.xctest"; sourceTree = "<absolute>"; };
+		7CED648A2DFCA39B003B9167 /* AREcosystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AREcosystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED648B2DFCA39B003B9167 /* AREcosystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AREcosystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED648C2DFCA39B003B9167 /* AREcosystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AREcosystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +36,20 @@
 				TranslateFunc.swift,
 			);
 			target = 825EAD4D2DFA18A500655D31 /* AREcosystem */;
+		};
+		7CED649E2DFCAD88003B9167 /* Exceptions for "AREcosystem" folder in "AREcosystem" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				tree_2.usdz,
+			);
+			target = 825EAD4D2DFA18A500655D31 /* AREcosystem */;
+		};
+		7CED649F2DFCAD88003B9167 /* Exceptions for "AREcosystem" folder in "AREcosystemUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				tree_2.usdz,
+			);
+			target = 825EAD642DFA18A500655D31 /* AREcosystemUITests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -50,6 +64,10 @@
 		};
 		825EAD502DFA18A500655D31 /* AREcosystem */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7CED649E2DFCAD88003B9167 /* Exceptions for "AREcosystem" folder in "AREcosystem" target */,
+				7CED649F2DFCAD88003B9167 /* Exceptions for "AREcosystem" folder in "AREcosystemUITests" target */,
+			);
 			path = AREcosystem;
 			sourceTree = "<group>";
 		};
@@ -97,6 +115,9 @@
 				825EAD5E2DFA18A500655D31 /* AREcosystemTests */,
 				825EAD682DFA18A500655D31 /* AREcosystemUITests */,
 				7CED64132DFC9CBA003B9167 /* Structs */,
+				7CED648A2DFCA39B003B9167 /* AREcosystem.app */,
+				7CED648B2DFCA39B003B9167 /* AREcosystemTests.xctest */,
+				7CED648C2DFCA39B003B9167 /* AREcosystemUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,7 +143,7 @@
 			packageProductDependencies = (
 			);
 			productName = AREcosystem;
-			productReference = 825EAD4E2DFA18A500655D31 /* AREcosystem.app */;
+			productReference = 7CED648A2DFCA39B003B9167 /* AREcosystem.app */;
 			productType = "com.apple.product-type.application";
 		};
 		825EAD5A2DFA18A500655D31 /* AREcosystemTests */ = {
@@ -145,7 +166,7 @@
 			packageProductDependencies = (
 			);
 			productName = AREcosystemTests;
-			productReference = 825EAD5B2DFA18A500655D31 /* AREcosystemTests.xctest */;
+			productReference = 7CED648B2DFCA39B003B9167 /* AREcosystemTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		825EAD642DFA18A500655D31 /* AREcosystemUITests */ = {
@@ -169,7 +190,7 @@
 			packageProductDependencies = (
 			);
 			productName = AREcosystemUITests;
-			productReference = 825EAD652DFA18A500655D31 /* AREcosystemUITests.xctest */;
+			productReference = 7CED648C2DFCA39B003B9167 /* AREcosystemUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
