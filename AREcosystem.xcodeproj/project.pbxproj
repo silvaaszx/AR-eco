@@ -24,12 +24,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		825EAD4E2DFA18A500655D31 /* AREcosystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AREcosystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		825EAD5B2DFA18A500655D31 /* AREcosystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AREcosystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		825EAD652DFA18A500655D31 /* AREcosystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AREcosystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		825EAD4E2DFA18A500655D31 /* AREcosystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AREcosystem.app; path = "/Users/jotape/Documents/AR-eco/build/Debug-iphoneos/AREcosystem.app"; sourceTree = "<absolute>"; };
+		825EAD5B2DFA18A500655D31 /* AREcosystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AREcosystemTests.xctest; path = "/Users/jotape/Documents/AR-eco/build/Debug-iphoneos/AREcosystem.app/PlugIns/AREcosystemTests.xctest"; sourceTree = "<absolute>"; };
+		825EAD652DFA18A500655D31 /* AREcosystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AREcosystemUITests.xctest; path = "/Users/jotape/Documents/AR-eco/build/Debug-iphoneos/AREcosystemUITests-Runner.app/PlugIns/AREcosystemUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7CED64172DFC9D10003B9167 /* Exceptions for "Structs" folder in "AREcosystem" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TranslateFunc.swift,
+			);
+			target = 825EAD4D2DFA18A500655D31 /* AREcosystem */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		7CED64132DFC9CBA003B9167 /* Structs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7CED64172DFC9D10003B9167 /* Exceptions for "Structs" folder in "AREcosystem" target */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
 		825EAD502DFA18A500655D31 /* AREcosystem */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AREcosystem;
@@ -78,18 +96,8 @@
 				825EAD502DFA18A500655D31 /* AREcosystem */,
 				825EAD5E2DFA18A500655D31 /* AREcosystemTests */,
 				825EAD682DFA18A500655D31 /* AREcosystemUITests */,
-				825EAD4F2DFA18A500655D31 /* Products */,
+				7CED64132DFC9CBA003B9167 /* Structs */,
 			);
-			sourceTree = "<group>";
-		};
-		825EAD4F2DFA18A500655D31 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				825EAD4E2DFA18A500655D31 /* AREcosystem.app */,
-				825EAD5B2DFA18A500655D31 /* AREcosystemTests.xctest */,
-				825EAD652DFA18A500655D31 /* AREcosystemUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +162,7 @@
 				825EAD672DFA18A500655D31 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				7CED64132DFC9CBA003B9167 /* Structs */,
 				825EAD682DFA18A500655D31 /* AREcosystemUITests */,
 			);
 			name = AREcosystemUITests;
@@ -196,7 +205,7 @@
 			mainGroup = 825EAD452DFA18A500655D31;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 825EAD4F2DFA18A500655D31 /* Products */;
+			productRefGroup = 825EAD452DFA18A500655D31;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
