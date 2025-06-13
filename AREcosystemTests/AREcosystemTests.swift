@@ -1,10 +1,3 @@
-//
-//  AREcosystemTests.swift
-//  AREcosystemTests
-//
-//  Created by Matheus Silva on 11/06/25.
-//
-
 import Testing
 @testable import AREcosystem
 

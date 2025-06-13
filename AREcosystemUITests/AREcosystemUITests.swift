@@ -1,10 +1,3 @@
-//
-//  AREcosystemUITests.swift
-//  AREcosystemUITests
-//
-//  Created by Matheus Silva on 11/06/25.
-//
-
 import XCTest
 
 final class AREcosystemUITests: XCTestCase {
