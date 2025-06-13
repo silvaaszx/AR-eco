@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		825EAD4E2DFA18A500655D31 /* AREcosystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AREcosystem.app; path = "/Users/jotape/Documents/AR-eco/build/Debug-iphoneos/AREcosystem.app"; sourceTree = "<absolute>"; };
-		825EAD5B2DFA18A500655D31 /* AREcosystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AREcosystemTests.xctest; path = "/Users/jotape/Documents/AR-eco/build/Debug-iphoneos/AREcosystem.app/PlugIns/AREcosystemTests.xctest"; sourceTree = "<absolute>"; };
-		825EAD652DFA18A500655D31 /* AREcosystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AREcosystemUITests.xctest; path = "/Users/jotape/Documents/AR-eco/build/Debug-iphoneos/AREcosystemUITests-Runner.app/PlugIns/AREcosystemUITests.xctest"; sourceTree = "<absolute>"; };
+		82CB7FEF2DFC9E5C00F3E274 /* AREcosystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AREcosystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CB7FF02DFC9E5C00F3E274 /* AREcosystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AREcosystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CB7FF12DFC9E5C00F3E274 /* AREcosystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AREcosystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -97,6 +97,9 @@
 				825EAD5E2DFA18A500655D31 /* AREcosystemTests */,
 				825EAD682DFA18A500655D31 /* AREcosystemUITests */,
 				7CED64132DFC9CBA003B9167 /* Structs */,
+				82CB7FEF2DFC9E5C00F3E274 /* AREcosystem.app */,
+				82CB7FF02DFC9E5C00F3E274 /* AREcosystemTests.xctest */,
+				82CB7FF12DFC9E5C00F3E274 /* AREcosystemUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,7 +125,7 @@
 			packageProductDependencies = (
 			);
 			productName = AREcosystem;
-			productReference = 825EAD4E2DFA18A500655D31 /* AREcosystem.app */;
+			productReference = 82CB7FEF2DFC9E5C00F3E274 /* AREcosystem.app */;
 			productType = "com.apple.product-type.application";
 		};
 		825EAD5A2DFA18A500655D31 /* AREcosystemTests */ = {
@@ -145,7 +148,7 @@
 			packageProductDependencies = (
 			);
 			productName = AREcosystemTests;
-			productReference = 825EAD5B2DFA18A500655D31 /* AREcosystemTests.xctest */;
+			productReference = 82CB7FF02DFC9E5C00F3E274 /* AREcosystemTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		825EAD642DFA18A500655D31 /* AREcosystemUITests */ = {
@@ -169,7 +172,7 @@
 			packageProductDependencies = (
 			);
 			productName = AREcosystemUITests;
-			productReference = 825EAD652DFA18A500655D31 /* AREcosystemUITests.xctest */;
+			productReference = 82CB7FF12DFC9E5C00F3E274 /* AREcosystemUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
